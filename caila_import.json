@@ -133,12 +133,45 @@
       ],
       "patterns": [
         {
-          "text": "(meaning) * [of] (life) *"
+          "text": "* (meaning) * [of] (life) *"
         }
+      ],
+      "slots":[
+        {
+          "name":"meaning",
+          "entity":"meaningOfLife",
+          "required":true,
+          "prompts":[]
+        }
+      ],
+      "priority":0
+    }
+  ],
+  "entities": [
+    {
+      "entity":
+      {
+        "name":"meaningOfLife",
+        "type":"annotation",
+        "id":99252,
+        "enabled":true,
+        "shared":false,
+        "priority":1,
+        "noSpelling":true,
+        "noMorph":false,
+        "phoneticSearch":false,
+        "fuzzySearch":false,
+        "client":false
+      },
+      "records":[
+        {
+          "type":"pattern",
+          "rule":["* (meaning) * [in] * (life) *"],
+          "value":"",
+          "id":10129095}
       ]
     }
   ],
-  "entities": [],
   "enabledSystemEntities": [
     "duckling.number",
     "duckling.time",
