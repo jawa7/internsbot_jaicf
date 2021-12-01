@@ -51,7 +51,7 @@ val mainScenario = Scenario {
 
     state("meaningOfLife") {
         activators {
-            intent("/Smalltalk/MeaningOfLife")
+            intent("Smalltalk/MeaningOfLife")
         }
         action {
             reactions.sayRandom(
