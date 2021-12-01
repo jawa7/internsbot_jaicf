@@ -49,6 +49,18 @@ val mainScenario = Scenario {
         }
     }
 
+    state("meaningOfLife") {
+        activators {
+            intent("/Smalltalk/MeaningOfLife")
+        }
+        action {
+            reactions.sayRandom(
+                "I don't know",
+                "Oh God I do not know"
+            )
+        }
+    }
+
     fallback {
         reactions.sayRandom(
             "Sorry, I didn't get that...",
