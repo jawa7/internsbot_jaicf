@@ -113,6 +113,29 @@
         }
       ],
       "patterns": []
+    },
+    {
+      "id": 6766,
+      "path": "/Smalltalk/MeaningOfLife",
+      "answer": "I don't know",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "What's the meaning of life?"
+        },
+        {
+          "text": "Meaning of life"
+        },
+        {
+          "text": "I don't know how to live"
+        }
+      ],
+      "patterns": [
+        {
+          "text": "(meaning) * [of] (life) *"
+        }
+      ]
     }
   ],
   "entities": [],
