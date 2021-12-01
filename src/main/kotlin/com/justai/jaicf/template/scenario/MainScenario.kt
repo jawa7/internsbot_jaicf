@@ -48,18 +48,18 @@ val mainScenario = Scenario {
             activator.topIntent.answer?.let { reactions.say(it) } ?: reactions.go("/fallback")
         }
     }
-
-    state("meaningOfLife") {
-        activators {
-            anyIntent()
-        }
-        action {
-            reactions.sayRandom(
-                "I don't know",
-                "Oh God I do not know"
-            )
-        }
-    }
+//
+//    state("meaningOfLife") {
+//        activators {
+//            intent("/Smalltalk/MeaningOfLife")
+//        }
+//        action {
+//            reactions.sayRandom(
+//                "I don't know",
+//                "Oh God I do not know"
+//            )
+//        }
+//    }
 
     fallback {
         reactions.sayRandom(
