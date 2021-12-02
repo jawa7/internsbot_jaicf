@@ -39,11 +39,10 @@ val mainScenario = Scenario {
         }
     }
 
-    state("smalltalk", noContext = true) {
+    state("smalltalk") {
         activators {
             intent("/Smalltalk/MeaningOfLife")
         }
-
         action {
             reactions.sayRandom(
                 "I don't know",
