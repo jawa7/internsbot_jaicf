@@ -1,0 +1,27 @@
+[
+  {
+    "entity":{
+      "name":"meaningOfLife",
+      "type":"annotation",
+      "id":99252,
+      "enabled":true,
+      "shared":false,
+      "priority":1,
+      "noSpelling":true,
+      "noMorph":false,
+      "phoneticSearch":false,
+      "fuzzySearch":false,
+      "client":false
+    },
+    "records":[
+      {
+        "type":"pattern",
+        "rule":[
+          "* (meaning) * [in] * (life) *"
+        ],
+        "value":"",
+        "id":10129095
+      }
+    ]
+  }
+]
