@@ -44,10 +44,16 @@ val mainScenario = Scenario {
             intent("/Smalltalk/MeaningOfLife")
         }
 
-        action(caila) {
-            activator.topIntent.answer?.let { reactions.say(it) } ?: reactions.go("/fallback")
+        action {
+            reactions.sayRandom(
+                "I don't know",
+                "Oh God I do not know"
+            )
+
+//        action(caila) {
+//            activator.topIntent.answer?.let { reactions.say(it) } ?: reactions.go("/fallback")
+//        }
         }
-    }
 //
 //    state("meaningOfLife") {
 //        activators {
@@ -60,11 +66,11 @@ val mainScenario = Scenario {
 //            )
 //        }
 //    }
-
-    fallback {
-        reactions.sayRandom(
-            "Sorry, I didn't get that...",
-            "Sorry, could you repeat please?"
-        )
     }
-}
+        fallback {
+            reactions.sayRandom(
+                "Sorry, I didn't get that...",
+                "Sorry, could you repeat please?"
+            )
+        }
+    }
