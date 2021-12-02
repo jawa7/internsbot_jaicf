@@ -1,0 +1,232 @@
+{
+  "project": {
+    "id": "jaicf-jaicp-caila-template",
+    "name": "jaicf-jaicp-caila-template",
+    "folder": "/"
+  },
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "UTC",
+    "shared": false
+  },
+  "intents": [
+      {
+        "id":3991493,
+        "path":"/Bye",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"goodbye"
+          },
+          {
+            "text":"bye"
+          },
+          {
+            "text":"see you"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3982945,
+        "path":"/ChangeTariff",
+        "answer":"С подробной информацией по тарифным планам Aimylogic Вы можете ознакомиться по ссылке: https://help.aimylogic.com/docs/ru/pricing/. Также рекомендуем ознакомиться с часто задаваемыми вопросами по тарифным планам: https://help.aimylogic.com/docs/ru/pricing_faq.",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"подобрать тарифный план"
+          },
+          {
+            "text":"какой есть тарифный план?"
+          },
+          {
+            "text":"узнать про тариф"
+          },
+          {
+            "text":"хочу создать чат бота сколько стоит"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3991494,
+        "path":"/Hello",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"hi"
+          },
+          {
+            "text":"hello"
+          },
+          {
+            "text":"welcome"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3991495,
+        "path":"/Smalltalk",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3991496,
+        "path":"/Smalltalk/Help",
+        "description":"",
+        "answer":"I'm a templated bot and can't do useful things yet...",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"help"
+          },
+          {
+            "text":"what can you do"
+          },
+          {
+            "text":"your functions"
+          },
+          {
+            "text":"your possibilities"
+          },
+          {
+            "text":"tell me about you"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3991497,
+        "path":"/Smalltalk/HowAreYou",
+        "answer":"I'm fine! Thank you!",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"how are you"
+          }
+        ],
+        "patterns":[
+          "* (what's up) *"
+        ],
+        "priority":0
+      },
+      {
+        "id":3991498,
+        "path":"/Smalltalk/MeaningOfLife",
+        "answer":"I don't know",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"What's the meaning of life?"
+          },
+          {
+            "text":"Meaning of life"
+          },
+          {
+            "text":"I don't know how to live"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "slots":[
+          {
+            "name":"meaning",
+            "entity":"meaningOfLife",
+            "required":true,
+            "prompts":[
+
+            ]
+          }
+        ],
+        "priority":0
+      },
+      {
+        "id":3991499,
+        "path":"/Smalltalk/WhatIsYourName",
+        "answer":"I don't have a name yet, I'm just a bot",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"what is your name"
+          },
+          {
+            "text":"how to name you"
+          },
+          {
+            "text":"say me your name"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      },
+      {
+        "id":3982946,
+        "path":"/TarifLimits",
+        "answer":"В конце расчетного периода тарифные лимиты обнуляются, при этом дополнительные пакеты сохраняются.",
+        "enabled":true,
+        "shared":false,
+        "phrases":[
+          {
+            "text":"тарифный лимит заканчивается в конце месяца"
+          },
+          {
+            "text":"когда сгорит тарифный лимит?"
+          },
+          {
+            "text":"через сколько кончится тарифный лимит"
+          },
+          {
+            "text":"тариф исчезнет в конце года"
+          },
+          {
+            "text":"хочу создать чат бота сколько стоит"
+          }
+        ],
+        "patterns":[
+
+        ],
+        "priority":0
+      }
+  ],
+  "entities": [],
+  "enabledSystemEntities": [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ]
+}
