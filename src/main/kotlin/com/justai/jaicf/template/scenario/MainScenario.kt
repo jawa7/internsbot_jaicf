@@ -44,7 +44,7 @@ val mainScenario = Scenario {
             anyIntent()
         }
         action(caila) {
-            activator.topIntent.answer?.let { reactions.say(it) }
+            activator.topIntent.answer?.let { reactions.say(it) } ?: reactions.go("/fallback")
         }
     }
         fallback {
