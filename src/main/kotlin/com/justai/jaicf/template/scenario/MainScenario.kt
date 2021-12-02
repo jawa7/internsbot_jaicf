@@ -41,7 +41,7 @@ val mainScenario = Scenario {
 
     state("smalltalk", noContext = true) {
         activators {
-            anyIntent()
+            intent("/Smalltalk/MeaningOfLife")
         }
 
         action(caila) {

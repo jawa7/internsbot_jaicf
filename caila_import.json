@@ -96,62 +96,27 @@
       "patterns": []
     },
     {
-      "id":3963031,
-      "path":"/Smalltalk/MeaningOfLife",
-      "answer":"I don't know",
-      "enabled":true,
-      "shared":false,
-      "phrases":[
+      "id": 3963031,
+      "path": "/Smalltalk/MeaningOfLife",
+      "answer": "I don't know",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
         {
-          "text":"What's the meaning of life?"
+          "text": "What's the meaning of life?"
         },
         {
-          "text":"Meaning of life"
+          "text": "Meaning of life"
         },
         {
-          "text":"I don't know how to live"
+          "text": "I don't know how to live"
         }
       ],
-      "patterns":[
-
-      ],
-      "slots":[
-        {
-          "name":"meaning",
-          "entity":"meaningOfLife",
-          "required":true,
-          "prompts":[
-
-          ]
-        }
-      ],
-      "priority":0
-    }
-
-  ],
-  "entity":{
-    "name":"meaningOfLife",
-    "type":"annotation",
-    "id":99252,
-    "enabled":true,
-    "shared":false,
-    "priority":1,
-    "noSpelling":true,
-    "noMorph":false,
-    "phoneticSearch":false,
-    "fuzzySearch":false,
-    "client":false
-  },
-  "records":[
-    {
-      "type":"pattern",
-      "rule":[
-        "* (meaning) * [in] * (life) *"
-      ],
-      "value":"",
-      "id":10129095
+      "patterns": [
+      ]
     }
   ],
+  "entities": [],
   "enabledSystemEntities": [
     "duckling.number",
     "duckling.time",
