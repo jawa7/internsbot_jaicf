@@ -91,6 +91,18 @@
       "phrases": [
         {
           "text": "how are you"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "how is it going"
+        },
+        {
+          "text": "you just bot"
+        },
+        {
+          "text": "bye bot"
         }
       ],
       "patterns": []
