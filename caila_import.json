@@ -5,7 +5,7 @@
     "folder": "/"
   },
   "settings": {
-    "language": "en",
+    "language": "ru",
     "spellingCorrection": false,
     "classificationAlgorithm": "sts",
     "timezone": "UTC",
@@ -13,119 +13,26 @@
   },
   "intents": [
     {
-      "id": 6760,
-      "path": "/Bye",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "goodbye"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "see you"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6761,
-      "path": "/Hello",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "hi"
-        },
-        {
-          "text": "hello"
-        },
-        {
-          "text": "welcome"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6762,
-      "path": "/Smalltalk",
-      "enabled": true,
-      "shared": false,
-      "phrases": [],
-      "patterns": []
-    },
-    {
-      "id": 6763,
-      "path": "/Smalltalk/Help",
-      "description": "",
-      "answer": "I'm a templated bot and can't do useful things yet...",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "help"
-        },
-        {
-          "text": "what can you do"
-        },
-        {
-          "text": "your functions"
-        },
-        {
-          "text": "your possibilities"
-        },
-        {
-          "text": "tell me about you"
-        }
-      ],
-      "patterns": []
-    },
-    {
       "id": 6764,
-      "path": "/Smalltalk/HowAreYou",
-      "answer": "I'm fine! Thank you!",
+      "path": "/ChangeTariff",
+      "answer": "С подробной информацией по тарифным планам Aimylogic Вы можете ознакомиться по ссылке: https://help.aimylogic.com/docs/ru/pricing/. Также рекомендуем ознакомиться с часто задаваемыми вопросами по тарифным планам: https://help.aimylogic.com/docs/ru/pricing_faq.",
       "enabled": true,
       "shared": false,
       "phrases": [
         {
-          "text": "how are you"
+          "text": "подобрать тарифный план"
         },
         {
-          "text": "what's up"
+          "text": "какой есть тарифный план?"
         },
         {
-          "text": "how is it going"
+          "text": "узнать про тариф"
         },
         {
-          "text": "you just bot"
-        },
-        {
-          "text": "bye bot"
+          "text": "хочу создать чат бота сколько стоит"
         }
       ],
       "patterns": []
-    },
-    {
-      "id": 3963031,
-      "path": "/Smalltalk/MeaningOfLife",
-      "answer": "I don't know",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "What's the meaning of life?"
-        },
-        {
-          "text": "Meaning of life"
-        },
-        {
-          "text": "I don't know how to live"
-        }
-      ],
-      "patterns": [
-      ]
     }
   ],
   "entities": [],

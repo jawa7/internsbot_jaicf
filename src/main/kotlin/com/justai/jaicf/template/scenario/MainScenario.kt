@@ -58,11 +58,8 @@ val mainScenario = Scenario {
         activators {
             anyIntent()
         }
-        action {
-            reactions.sayRandom(
-                "I don't know",
-                "Oh God I do not know"
-            )
+        action(caila) {
+            activator.topIntent.answer?.let { reactions.say(it) }
         }
     }
         fallback {
